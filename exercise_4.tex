@@ -152,7 +152,20 @@ The data with different start level is available under \href{https://github.com/
 \item \textbf{2 star:} Transferred data into excel format, so its machine readable
 \item \textbf{3 star:} Transferred data into html format, so it uses a non-proprietary format
 \item \textbf{4 star:} Added semantics via RDFa
-\item \textbf{5 star:} Linked data to the event and to the organizer (also provided dbpedia link for organizer)
+\item \textbf{5 star:} Linked data to the event and to the organizer (also provided DBpedia link for organizer)
 \end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+%	PROBLEM 4
+%----------------------------------------------------------------------------------------
+
+\section{Exercise 4 (voiD)}
+
+The Vocabulary of Interlinked Datasets (VoID) has to do with metadata about RDF datasets. It is an RDF Schema vocabulary that provides terms and patterns for describing RDF datasets, and is intended as a bridge between the publishers and users of RDF data. VoiD descriptions can be used in many situations, ranging from data discovery to cataloging and archiving of datasets, but most importantly it helps users find the right data for their tasks.\\
+\\
+VoID consist mainly of two core concepts: \textbf{datasets} and \textbf{linksets}. A dataset is a set of RDF triples that are published, maintained or aggregated by a single provider. An example would be \texttt{:DBpedia a void:Dataset}. A linkset on the other hand is a collection of RDF links between two datasets. An example would be \texttt{:DBpedia\_Geonames a void:Linkset .}, which is intended as a proxy for a set of triples that link resources in the DBpedia and Geonames datasets. 
+
+
 
 \end{document}
